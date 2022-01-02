@@ -4,7 +4,7 @@
 using namespace std;
 class a{
     public:
-        tring a;
+        string a;
 };
 class m{
     public:
@@ -26,8 +26,7 @@ class s{
     public:
         string s;
 };
-int main()
-{
+int main(){
     a a;
     m m;
     o o;
@@ -40,6 +39,25 @@ int main()
     g.g = "g";
     u.u = "u";
     s.s = "s";
+    
+    if (a.a, "a"){
+        a.a = "a";
+    }
+    else if(m.m, "m"){
+        m.m = "m";
+    }
+    else if(o.o, "o"){
+        o.o = "o";
+    }
+    else if(g.g, "g"){
+        g.g = "g";
+    }
+    else if(u.u, "u"){
+        u.u = "u";
+    }
+    else if(s.s, "s"){
+    s.s = "s";
+    } 
 
     cout << a.a << m.m << o.o << g.g << u.u << s.s << endl;
     return 0;
